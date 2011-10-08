@@ -1,5 +1,8 @@
-= widget_div do
-  %h1
-    TrashbinWidget#display
-  %p
-    Find me in app/widgets/trashbin/display.html.haml
+= image_tag "trashbin_empty.png", 'data-event-url' => url_for_event(:drop), :id => "trashbin-imgtag"
+
+:javascript
+  $("#trashbin").droppable({
+    drop: function(event, ui) {
+      $.ajax({url: $("#trashbin-imgtag").attr("data-event-url") + "&id=" + ui.draggable.attr("data-id")});
+    }
+  });
