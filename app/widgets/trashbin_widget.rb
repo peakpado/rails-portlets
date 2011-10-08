@@ -8,8 +8,8 @@ class TrashbinWidget < Apotomo::Widget
     render :layout => 'portlet'
   end
   
-  def trash
-    Tweet.find(param(:id)).delete
+  def trash(evt)
+    Tweet.find(evt[:id]).delete
     trigger :tweetDeleted
     
     update :view => :display
