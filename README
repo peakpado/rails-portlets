@@ -7,7 +7,6 @@ Rails-portlets is a portlet example of apotomo gem(http://apotomo.de). The live 
 
 1. bundle install
 
-
 2. rails server
 
 
