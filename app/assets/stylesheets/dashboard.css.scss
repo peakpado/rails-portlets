@@ -12,12 +12,11 @@ body {
 	br {
 	  clear: both;
 	}
-	p {
-		float: right;
-		
-	}
 }
 
+.email {
+	float: right;
+}
 
 .column { width: 300px; float: left; padding-bottom: 10px; }
 .portlet { margin: 0 1em 1em 0; }
