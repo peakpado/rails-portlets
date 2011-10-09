@@ -1,0 +1,10 @@
+:javascript
+  $().ready(function() {
+    var input = $("##{widget_id}-field");
+    input.autocomplete(
+      {source: input.attr('data-load-event-url')}
+    );
+  });
+
+What are you lookin' for?
+= text_field_tag "#{widget_id}-field", "", 'data-load-event-url' => url_for_event(:typing)
