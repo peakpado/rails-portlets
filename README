@@ -1,6 +1,7 @@
 == Welcome to Rails Portlets
 
-Rails-portlets is a portlet example of apotomo gem(http://apotomo.de). The live demo is running in rails-portlets.heroku.com.
+Rails-portlets is a portlet example of apotomo gem(http://apotomo.de) in Rails 3.1. 
+The live demo is running in http://rails-portlets.heroku.com.
 
 
 == Getting Started
