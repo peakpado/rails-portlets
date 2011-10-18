@@ -7,8 +7,13 @@ The live demo is running in http://rails-portlets.heroku.com.
 == Getting Started
 
 1. bundle install
+2. rails s
 
-2. rails server
+== License
+
+Copyright © 2011 Pado Peak <peakpado@gmail.com>
+
+Rails-portlets is distributed under an MIT-style license. See LICENSE for details.
 
 
 
